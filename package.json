@@ -1,0 +1,18 @@
+{
+    "name": "clayscss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "node-sass -o public/ src/ --include-path ./node_modules/clay-css/src/scss"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.14.1"
+    },
+    "dependencies": {
+        "clay-css": "^2.21.2"
+    }
+}
